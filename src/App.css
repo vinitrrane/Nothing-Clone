@@ -1,5 +1,25 @@
 @media (max-width:768px) {
 
+    .navbar ul {
+        display: none;
+    }
+
+    .navbar {
+        justify-content: flex-start !important;
+    }
+
+    .mobileIcon {
+        display: block !important;
+        background-color: #fff !important;
+        padding: 0.5rem 0;
+    }
+
+    .mobileIcon svg {
+        width: 1.25rem;
+        height: 2.1875rem;
+        fill: black;
+    }
+
     .herodiv {
         flex-direction: column;
         min-height: fit-content !important;
@@ -104,6 +124,15 @@
         border-bottom: 1px dotted black;
     }
 
+    .mainlinks ul li p svg,
+    .otherlinks ul li p svg {
+        display: block !important;
+    }
+
+    .otherlinks ul li p {
+        display: flex !important;
+    }
+
     .footertext {
         height: 100%;
     }
@@ -112,7 +141,8 @@
         display: none;
     }
 
-    .footertext p {
+    .footertext p,
+    .footertext a {
         letter-spacing: 0.52px;
         font-size: 13px !important;
     }
@@ -120,11 +150,13 @@
     .footeruptext {
         text-align: center !important;
         height: 50%;
+        width: 100%;
     }
 
     .footerdowntext {
         text-align: center !important;
         height: 50%;
+        width: 100%;
     }
 }
 
@@ -200,10 +232,25 @@
 
     .footer {
         flex-direction: column;
+        justify-content: space-between !important;
     }
 
     .footerlinks {
         width: 100% !important;
     }
 
+    .mainlinks ul p {
+        line-height: initial !important;
+    }
+
+    .footertext {
+        margin-top: 16px !important;
+        padding-top: 14px !important;
+        width: 100% !important;
+    }
+
+    .footertext p {
+        margin-top: 16px !important;
+        text-align: start;
+    }
 }

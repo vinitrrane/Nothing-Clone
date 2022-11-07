@@ -12,6 +12,10 @@
     height: 3.125rem;
 }
 
+.mobileIcon {
+    display: none;
+}
+
 .navbar a {
     font-family: Ndot-55 !important;
     font-size: .9375rem !important;

@@ -4,7 +4,7 @@ import './HeroTitle.css'
 const HeroTitle = (props) => {
     return (
         <>
-            <div className='herotitle'>
+            <div className={'herotitle ' + props.class}>
                 <h1>{props.name}</h1>
             </div>
         </>

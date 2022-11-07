@@ -6,7 +6,7 @@ const HeroImg = (props) => {
     return (
         <>
             <div className='heroimgdiv'>
-                <HeroTitle name={props.herotitle} />
+                <HeroTitle name={props.herotitle} class={props.titleclass} />
                 <img className='heroimg' src={props.imgurl}></img>
             </div>
         </>

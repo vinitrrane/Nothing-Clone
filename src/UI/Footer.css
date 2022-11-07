@@ -33,10 +33,43 @@
     padding-bottom: 14px;
 }
 
-.mainlinks ul li a {
+.mainlinks ul li a,
+.otherlinks ul li a {
     font-size: 15px;
     line-height: 0.5;
     letter-spacing: 0.6px;
+    cursor: pointer;
+
+}
+
+.mainlinks ul li a::before,
+.otherlinks ul li a::before {
+    content: ">";
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+
+.mainlinks ul li a:hover {
+    padding-left: 0.5rem;
+    position: relative;
+}
+
+
+.mainlinks ul li p,
+.otherlinks ul li p {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mainlinks ul li p svg,
+.otherlinks ul li p svg {
+    display: none;
+}
+
+.otherlinks ul li p {
+    display: none;
 }
 
 .blankfooterdiv {
@@ -63,6 +96,10 @@
 
 .footeruptext {
     text-align: start;
+}
+
+.footeruptext a {
+    color: black;
 }
 
 .footerdowntext {

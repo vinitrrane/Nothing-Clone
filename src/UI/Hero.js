@@ -13,7 +13,7 @@ const Hero = (props) => {
             {
                 props.herodata.map((hero) => (
                     <div className='herodiv flex' key={hero.id}>
-                        <HeroImg imgurl={hero.heroimg} herotitle={hero.herotitle} />
+                        <HeroImg imgurl={hero.heroimg} herotitle={hero.herotitle} titleclass={hero.titleclass} />
                         <HeroText herotop1={hero.title1} herotop2={hero.title2} heroheadtext={hero.heading} heromaintext={hero.details} herobutton1={hero.button1} herobutton2={hero.button2} />
                     </div>))
             }

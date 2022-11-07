@@ -13,7 +13,7 @@ const HeroText = (props) => {
                 <h1 className='p-05'>{props.heroheadtext}</h1>
                 <p className='p-05'>{props.heromaintext}</p>
                 <div className='flex jus-sb mainbtndiv'>
-                    <Button buttontext={props.herobutton1} /><Button buttontext={props.herobutton2} />
+                    <Button classname='mainbtn' buttontext='Learn more' />
                 </div>
             </div>
         </>
