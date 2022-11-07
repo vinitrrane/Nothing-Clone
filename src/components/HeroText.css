@@ -1,0 +1,14 @@
+.herotextdiv {
+    width: 28rem;
+    max-width: 100%;
+}
+
+.herotextdiv h1 {
+    font-family: NType82;
+    font-size: 3.75rem;
+    line-height: .87;
+    letter-spacing: 0.6px;
+    font-weight: 100;
+    margin-bottom: 1.25rem;
+    margin-top: 2.25rem;
+}

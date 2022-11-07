@@ -1,0 +1,30 @@
+.heroimgdiv {
+    width: 70%;
+    max-width: 100%;
+    position: relative;
+    z-index: 4;
+}
+
+.heroimg {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    vertical-align: middle;
+}
+
+.herotitledark {
+    position: absolute;
+    /* justify-content: center; */
+    top: 0vw;
+    left: -0.95vw;
+    z-index: 3;
+}
+
+.herotitledark h1 {
+    font-family: 'Ndot-55', 'NType82Mono' !important;
+    font-size: calc(10vw);
+    font-weight: 300;
+    line-height: 1.2;
+    writing-mode: vertical-lr;
+    color: balck !important;
+}

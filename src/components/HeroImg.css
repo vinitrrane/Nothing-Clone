@@ -1,0 +1,15 @@
+.heroimgdiv {
+    width: 70%;
+    max-width: 100%;
+    position: relative;
+    z-index: 4;
+    overflow: hidden !important
+}
+
+.heroimg {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    vertical-align: middle;
+    position: absolute;
+}

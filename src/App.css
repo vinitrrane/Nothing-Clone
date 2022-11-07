@@ -1,0 +1,209 @@
+@media (max-width:768px) {
+
+    .herodiv {
+        flex-direction: column;
+        min-height: fit-content !important;
+    }
+
+    .herotextdiv {
+        order: 2;
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0.5rem;
+    }
+
+    .heroimgdiv {
+        width: 100% !important;
+        min-height: 85vh;
+        order: 1;
+    }
+
+    .heroimg {
+        object-fit: cover !important;
+    }
+
+    .herotextdiv h1 {
+        font-size: 1.5625rem !important;
+        margin-top: 0.75rem !important;
+        margin-bottom: 0.75rem !important;
+    }
+
+    .herotextdiv p,
+    button {
+        letter-spacing: 0.52px;
+        line-height: 1.53;
+        font-size: .8125rem !important;
+    }
+
+    .mainbtndiv {
+        margin-top: 0 !important;
+        margin-bottom: 1.25rem;
+        align-items: flex-start;
+    }
+
+    .lasthead {
+        word-wrap: break-word;
+    }
+
+    .reviewsdiv {
+        padding-top: 3.125rem !important;
+        padding-bottom: 3.125rem !important;
+    }
+
+    .footerlinks,
+    .footertext {
+        width: 50% !important;
+    }
+
+    .mainlinks {
+        flex-direction: column;
+    }
+
+    .mainlinks ul,
+    .mainlinks li,
+    .mainlinks a {
+        width: 100% !important;
+        letter-spacing: 0.52px;
+        font-size: 13px !important;
+    }
+
+    .mainlinks ul p {
+        padding: 14px 0;
+        letter-spacing: 0.52px;
+        font-size: 13px !important;
+    }
+
+    .blankfooterdiv {
+        display: none;
+    }
+
+    .otherlinks ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .otherlinks ul li:first-child {
+        padding: 14px 0;
+    }
+
+    .otherlinks ul,
+    .otherlinks li,
+    .otherlinks a {
+        width: 100% !important;
+        letter-spacing: 0.52px;
+        font-size: 13px !important;
+    }
+
+    .mainlinks ul li:not(:first-child),
+    .otherlinks ul li:not(:first-child) {
+        display: none;
+    }
+
+    .mainlinks ul li,
+    .otherlinks ul li {
+        border-bottom: 1px dotted black;
+    }
+
+    .footertext {
+        height: 100%;
+    }
+
+    .blankfootertext {
+        display: none;
+    }
+
+    .footertext p {
+        letter-spacing: 0.52px;
+        font-size: 13px !important;
+    }
+
+    .footeruptext {
+        text-align: center !important;
+        height: 50%;
+    }
+
+    .footerdowntext {
+        text-align: center !important;
+        height: 50%;
+    }
+}
+
+@media (max-width:540px) {
+
+    .herodiv {
+        height: fit-content !important
+    }
+
+    .heroimgdiv {
+        width: 100% !important;
+        min-height: 70vh;
+        order: 1;
+    }
+
+    .herotextdiv {
+        padding: 0.25rem;
+        padding-bottom: 2.25rem;
+    }
+
+    .herotitle,
+    .herotitledark {
+
+        left: 5vw !important;
+    }
+
+    .herotitle h1,
+    .herotitledark h1 {
+        font-size: calc(20vw) !important;
+    }
+
+    .mainbtndiv {
+        flex-direction: column !important;
+        align-items: flex-start;
+        margin-bottom: 0;
+    }
+
+    .reviewsdiv {
+        flex-direction: column;
+        padding-top: 2.9375rem !important;
+        padding-bottom: 2.9375rem !important;
+        padding-right: 0.75rem;
+        padding-left: 0.75rem;
+    }
+
+    .reviewcard {
+        max-width: 100% !important;
+        margin-bottom: 3rem !important;
+        text-align: left !important;
+    }
+
+    .reviewimgdiv {
+        order: 2;
+        justify-content: flex-start !important;
+    }
+
+    .reviewimg {
+        width: fit-content !important;
+    }
+
+    .reviewtextdiv {
+        order: 1;
+    }
+
+    .reviewtextdiv p {
+        font-size: 1.125rem !important;
+        order: 1;
+        padding: 0rem !important;
+        margin: 0rem !important;
+        padding-bottom: 0.25rem !important;
+        margin-bottom: 0.5rem !important;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .footerlinks {
+        width: 100% !important;
+    }
+
+}

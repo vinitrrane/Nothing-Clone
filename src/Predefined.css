@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-c {
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-w {
+    flex-wrap: wrap;
+}
+
+.jus-c {
+    justify-content: center;
+}
+
+.jus-sb {
+    justify-content: space-between;
+}
+
+.jus-sa {
+    justify-content: space-around;
+}
+
+.jus-se {
+    justify-content: space-evenly;
+}
+
+.jus-s {
+    justify-content: flex-start;
+}
+
+.jus-e {
+    justify-content: flex-end;
+}
+
+.aln-c {
+    align-items: center;
+}
+
+.aln-fs {
+    align-items: flex-start;
+}
+
+.aln-fe {
+    align-items: flex-end;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.flex-row-r {
+    flex-direction: row-reverse;
+}
+
+.flex-col-r {
+    flex-direction: column-reverse;
+}
+
+.w-100 {
+    width: 100%;
+    max-width: 100%;
+}
+
+.w-50 {
+    width: 50%;
+    max-width: 50%;
+}
+
+.w-33 {
+    max-width: 33%;
+}
+
+.p-0 {
+    padding: 0;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.p-05 {
+    padding: 0.5rem;
+}
+
+.m-05 {
+    margin: 0.5rem;
+}
+
+.p-1 {
+    padding: 1rem;
+}
+
+.m-1 {
+    margin: 1rem;
+}
+
+f-base {
+    font-family: NType82Mono !important;
+    font-size: .9375rem !important;
+    line-height: 1.34;
+    letter-spacing: 0.6px;
+}
+
+button {
+    border: none;
+    box-shadow: none;
+    outline: none;
+    cursor: pointer;
+}

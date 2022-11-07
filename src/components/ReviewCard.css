@@ -1,0 +1,26 @@
+.reviewcard {
+    padding-left: calc(var(--grid-gutter-x) * .5);
+    padding-right: calc(var(--grid-gutter-x) * .5);
+    text-align: center;
+}
+
+.reviewimgdiv {
+    height: 1rem;
+}
+
+.reviewimgdiv img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.reviewcard p {
+    font-size: 1.5625rem;
+    line-height: 1.15;
+    letter-spacing: 0.3px;
+    font-family: NType82 !important;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}

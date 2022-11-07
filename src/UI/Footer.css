@@ -1,0 +1,76 @@
+.footer {
+    max-width: 100%;
+    background-color: #DCD7D2;
+    font-family: 'Ndot-55';
+    padding: 20px;
+    min-height: 35vh;
+}
+
+.footerlinks {
+    width: 70%;
+    height: 100%;
+}
+
+.mainlinks {
+    width: 100%;
+
+}
+
+.mainlinks ul {
+    width: 25%;
+}
+
+.mainlinks li {
+    padding: 0;
+    margin: 0;
+}
+
+.mainlinks ul p {
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 0.5;
+    letter-spacing: 0.6px;
+    padding-bottom: 14px;
+}
+
+.mainlinks ul li a {
+    font-size: 15px;
+    line-height: 0.5;
+    letter-spacing: 0.6px;
+}
+
+.blankfooterdiv {
+    height: 5rem;
+}
+
+.otherlinks {
+    height: 2rem;
+}
+
+.otherlinks ul li {
+    padding-right: 10px;
+}
+
+.footertext {
+    width: 30%;
+    height: 100% !important;
+    justify-content: space-between;
+}
+
+.blankfootertext {
+    height: 9rem;
+}
+
+.footeruptext {
+    text-align: start;
+}
+
+.footerdowntext {
+    text-align: end;
+}
+
+.footeruptext,
+.footerdowntext {
+    height: 50%;
+    width: 100%;
+}

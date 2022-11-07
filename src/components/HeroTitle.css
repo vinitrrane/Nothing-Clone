@@ -1,0 +1,27 @@
+.herotitle {
+    position: absolute;
+    /* justify-content: center; */
+    top: 0;
+    left: -0.95vw;
+    z-index: 3;
+}
+
+.herotitle h1 {
+    font-family: 'Ndot-55', 'NType82Mono' !important;
+    font-size: calc(10vw);
+    font-weight: 300;
+    line-height: 1.2;
+    writing-mode: vertical-lr;
+    color: white;
+    white-space: nowrap !important;
+}
+
+.herotitledark h1 {
+    font-family: 'Ndot-55', 'NType82Mono' !important;
+    font-size: calc(10vw);
+    font-weight: 300;
+    line-height: 1.2;
+    writing-mode: vertical-lr;
+    color: black !important;
+    white-space: nowrap !important;
+}
