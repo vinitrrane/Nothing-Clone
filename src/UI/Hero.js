@@ -17,8 +17,6 @@ const Hero = (props) => {
                         <HeroText herotop1={hero.title1} herotop2={hero.title2} heroheadtext={hero.heading} heromaintext={hero.details} herobutton1={hero.button1} herobutton2={hero.button2} />
                     </div>))
             }
-
-
         </>
     )
 }

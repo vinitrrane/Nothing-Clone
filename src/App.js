@@ -29,7 +29,6 @@ const App = () => {
     titleclass: 'darktitle',
   },]
 
-
   const hero = [
     {
       id: 3,

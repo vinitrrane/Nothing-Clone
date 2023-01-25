@@ -1,27 +1,33 @@
 .navbar {
-    background-color: transparent;
-    color: #000;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 999;
+  background-color: transparent;
+  color: #000;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 11;
+  height: 50vh;
 }
 
 .navbar ul {
-    height: 3.125rem;
+  height: 3.125rem;
+  position: relative;
+  z-index: 11;
 }
 
 .mobileIcon {
-    display: none;
+  display: none;
+  z-index: 99;
 }
 
-.navbar a {
-    font-family: Ndot-55 !important;
-    font-size: .9375rem !important;
-    line-height: 1.34;
-    letter-spacing: 0.6px;
-    cursor: pointer;
-    text-transform: uppercase;
-    color: #000;
+.navbar a,
+.navbar li {
+  font-family: Ndot-55 !important;
+  font-size: 0.9375rem !important;
+  line-height: 1.34;
+  letter-spacing: 0.6px;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: #000;
+  height: fit-content;
 }

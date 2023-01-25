@@ -55,6 +55,14 @@
         font-size: .8125rem !important;
     }
 
+    .herotextp {
+        justify-content: flex-start !important;
+    }
+
+    .herotextp p {
+        width: 30% !important;
+    }
+
     .mainbtndiv {
         margin-top: 0 !important;
         margin-bottom: 1.25rem;
@@ -177,9 +185,20 @@
         padding-bottom: 2.25rem;
     }
 
+    .herotextdiv h1 {
+        padding: 0 0.5rem !important;
+    }
+
+    .herotextp {
+        justify-content: flex-start !important;
+    }
+
+    .herotextp p {
+        width: 30% !important;
+    }
+
     .herotitle,
     .herotitledark {
-
         left: 5vw !important;
     }
 

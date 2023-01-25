@@ -1,0 +1,60 @@
+.mobileMenu {
+  min-height: 100vh;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 12;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1rem;
+  font-family: 'Ndot-55', 'NType82Mono' !important;
+  font-size: 0.9375rem !important;
+}
+
+.mobileMenu a {
+  color: white;
+  text-align: center;
+}
+
+.mobileMenu ul {
+  margin-top: 2rem;
+  text-align: left;
+}
+
+.mobileMenu li {
+  display: flex;
+  padding: 1rem 0.5rem;
+  border-top: 2px dotted white
+}
+
+#loginMenu {
+  border-bottom: 2px dotted white
+}
+
+.mobileMenu ul li a {}
+
+.iconOpen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.mobileMenuIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block !important;
+  background-color: #fff !important;
+  padding: 0.5rem 0;
+  transform: rotate(180deg);
+
+}
+
+.mobileMenuIcon svg {
+  width: 1.25rem;
+  height: 2.1875rem;
+  fill: black;
+}

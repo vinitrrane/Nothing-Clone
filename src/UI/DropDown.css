@@ -1,0 +1,68 @@
+.dropDown {
+    width: 100vw;
+    min-height: 45vh;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 12;
+
+}
+
+.dropDown ul li a,
+.dropDown ul li {
+    color: #fff !important;
+    font-weight: 300;
+}
+
+#productTag {
+    position: relative;
+}
+
+#productTag svg {
+    position: relative;
+    transform: rotate(180deg);
+
+}
+
+.dropDownMenu {
+    margin: 1rem;
+}
+
+.imgDiv {
+    width: 40%;
+}
+
+.imgDiv img {
+    min-width: 35%;
+    width: 35%;
+    height: auto;
+}
+
+.dropDownMenu ul {
+    width: 60%;
+    position: absolute;
+    left: 0%;
+}
+
+.dropDown li {
+    cursor: text !important;
+}
+
+.dropDownMenu ul li,
+.dropDownMenu ul li a {
+    text-transform: initial;
+}
+
+.dropDownMenu ul a::before {
+    content: ">";
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.dropDownMenu ul a:hover {
+    padding-left: 0.5rem;
+    position: relative;
+}
