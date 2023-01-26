@@ -8,7 +8,7 @@ import Footer from './UI/Footer';
 const App = () => {
 
   const heroMain = [{
-    id: 1,
+    id: 'home',
     title1: 'Introducing.',
     title2: 'Phone (1).',
     heading: 'Pure instinct',
@@ -18,7 +18,7 @@ const App = () => {
     herotitle: 'phone (1)',
     titleclass: 'darktitle',
   }, {
-    id: 2,
+    id: 'earstick',
     title1: 'Sublime.',
     title2: '',
     heading: 'Ear (stick)',
@@ -31,7 +31,7 @@ const App = () => {
 
   const hero = [
     {
-      id: 3,
+      id: 'ear1',
       title1: 'Introducing.',
       title2: 'Ear (1).',
       heading: 'Sound of change',
@@ -41,7 +41,7 @@ const App = () => {
       herotitle: 'ear (1)',
     },
     {
-      id: 4,
+      id: 'about',
       title1: 'London.',
       title2: 'Nothing.',
       heading: 'About us',
@@ -51,7 +51,7 @@ const App = () => {
       herotitle: 'about us',
     },
     {
-      id: 5,
+      id: 'store',
       title1: 'About.',
       title2: 'Soho.',
       heading: 'Nothing Store is coming',
@@ -64,7 +64,7 @@ const App = () => {
   ]
 
   const heroLast = [{
-    id: 5,
+    id: 'support',
     title1: 'Nothing.',
     title2: 'Support.',
     heading: 'Our new support services',

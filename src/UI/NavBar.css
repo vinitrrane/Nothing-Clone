@@ -31,3 +31,12 @@
   color: #000;
   height: fit-content;
 }
+
+
+.slideInAnimation {
+  transform: translateX(-100);
+}
+
+.slideOutAnimation {
+  transform: translateX(0);
+}

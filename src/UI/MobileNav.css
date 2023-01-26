@@ -11,7 +11,9 @@
   padding: 1rem;
   font-family: 'Ndot-55', 'NType82Mono' !important;
   font-size: 0.9375rem !important;
+  transition: all 0.4s;
 }
+
 
 .mobileMenu a {
   color: white;
@@ -33,7 +35,25 @@
   border-bottom: 2px dotted white
 }
 
-.mobileMenu ul li a {}
+.mobileMenu ul li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mobileMenu ul :first-child svg {
+  transform: rotate(90deg);
+}
+
+.openedMenu {
+  transform: rotate(270deg) !important;
+}
+
+.mobDropDown {
+  color: white;
+  text-transform: initial;
+  width: 100%;
+  margin-top: 0 !important;
+}
 
 .iconOpen {
   position: absolute;

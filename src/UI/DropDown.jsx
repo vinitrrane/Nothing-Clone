@@ -6,7 +6,7 @@ import Header from '../img/Header.jpg'
 const DropDown = (props) => {
 
     return (
-        <div className='dropDown' onMouseLeave={props.mouseout}>
+        <div className='dropDown fadeIn' onMouseLeave={props.mouseout}>
             <ul className=' flex jus-se aln-c w-100' style={{}}>
                 <li>
                     <a href='#home'>
@@ -15,7 +15,7 @@ const DropDown = (props) => {
                 </li>
                 <li>
                     <a id='productTag'
-                        href='#product'
+
                     >
                         Product{" "}
                         <svg
@@ -46,15 +46,15 @@ const DropDown = (props) => {
 
                 <ul>
                     <li>All Products</li>
-                    <li><a href="#phone1">phone(1)</a></li>
+                    <li><a href="#home">phone(1)</a></li>
                     <br />
-                    <li><a href="#audio">Audio</a></li>
+                    <li><a href="#earstick">Audio</a></li>
                     <li><a href="#ear1">ear(1)</a></li>
                     <br />
                     <li>All Accessories</li>
-                    <li><a href="#phone1_case">phone(1) case</a></li>
-                    <li><a href="#phon1_screen_protector">phone(1) screen protector</a></li>
-                    <li><a href="#power45w">power 45w</a></li>
+                    <li><a href="#home">phone(1) case</a></li>
+                    <li><a href="#home">phone(1) screen protector</a></li>
+                    <li><a href="#home">power 45w</a></li>
                 </ul>
             </div>
         </div>

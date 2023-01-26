@@ -16,12 +16,13 @@ const NavBar = (props) => {
 
   };
 
+  mobMenu ? document.body.style.overflow = "hidden" : document.body.style.overflow = "auto";
 
   return (
     <>
       <div className='navbar flex flex-w jus-c'>
         <a
-          href='#mob'
+
           className='mobileIcon'
           onClick={() => setMobMenu(!mobMenu)}>
           <svg
@@ -36,13 +37,13 @@ const NavBar = (props) => {
 
         <ul className='flex jus-se aln-c w-100' style={{}}>
           <li>
-            <a href='#home' className={`navlink ${props.class}`}>
+            <a href="#home" className={`navlink ${props.class}`}>
               Nothing (R)
             </a>
           </li>
           <li>
             <a
-              href='#product'
+
               className={`navlink dropLink ${props.class}`}
               onMouseOver={() => setDropDown(!dropDown)}>
               Product{" "}
@@ -70,7 +71,7 @@ const NavBar = (props) => {
         {dropDown ? <DropDown mouseout={mouseOut} /> : <></>}
       </div>
 
-      {mobMenu ? <MobileNav onclick={onClick} /> : <></>}
+      {mobMenu ? <MobileNav onclick={onClick} className={mobMenu ? "slideOutAnimation" : "slideInAnimation"} /> : <></>}
     </>
   );
 };
